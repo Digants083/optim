@@ -1,0 +1,28 @@
+{
+  "name": "optim",
+  "version": "0.1.0",
+  "description": "A backend-only MCP server for routing tasks across NVIDIA NIM models.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "optim": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.2.3",
+    "openai": "^6.9.1",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

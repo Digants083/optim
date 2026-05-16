@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "optim": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "node",
+        "D:\\optim-mcp\\optim\\dist\\index.js"
+      ]
+    }
+  }
+}
