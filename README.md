@@ -132,8 +132,9 @@ Example:
 After editing:
 
 ```bash
-npm run build
+npm run build  
 ```
+how to use in ide check for /mcp optim is connected if so in promot add like " use optim -to build something to build -" 
 
 ---
 
